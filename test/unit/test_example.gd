@@ -15,6 +15,12 @@ func after_all():
 func test_assert_eq_number_not_equal():
 	assert_eq(1, 2, "Should fail.  1 != 2")
 
+func test_assert_is_five_equal_to_three_hundred_and_thirty():
+	assert_eq(5, 330, "Should fail. 5 != 330")
+
+func test_assert_random_letters_equal():
+	assert_eq('fjalksdjflkasd','kjhsdkfja',"shouldn't pass")
+
 func test_assert_eq_number_equal():
 	assert_eq('asdf', 'asdf', "Should pass")
 
